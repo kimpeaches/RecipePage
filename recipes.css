@@ -1,14 +1,42 @@
 body {
     margin: 0;
     padding: 0 ;
+    background-image: url("./foodbg.jpg");
+    background-size: cover;
 }
 
 main {
     padding: 16px;
 }
 
+p {
+    font-family: 'Kaushan Script', cursive;
+}
+
+main h1 {
+    font-family: 'Kaushan Script', cursive;
+    color: #146152;
+    display: flex;
+    justify-content: center;
+}
+
+main h2 {
+    font-family: 'Kaushan Script', cursive;
+    color: #146152;
+    display: flex;
+    justify-content: center;
+}
+
 footer {
     padding: 24px 0;
+    background-color: #B4CF66;
+}
+
+footer p {
+    color: white;
+    font-family: 'Kaushan Script', cursive;
+    display: flex;
+    justify-content: center;
 }
 
 img {
@@ -19,4 +47,61 @@ img {
 nav {
     border-bottom: 1px solid black;
     padding: 16px;
+    background-color: #FF5A33;
+}
+
+nav a {
+    color: white;
+    font-family: 'Kaushan Script', cursive;
+    display: flex;
+    justify-content: center;
+}
+
+.content-text {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+a:hover {
+    color: #44803F;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.box a {
+    font-family: 'Kaushan Script', cursive;
+    color: #146152;
+}
+.secondbox {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    place-items: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+footer p {
+    font-size: 1em;
+    margin: 0;
+}
+tr:nth-child(even) {
+    background-color: gray;
+    color: white;
+}
+
+img {
+    box-shadow: 10px 5px 5px gainsboro;
 }
